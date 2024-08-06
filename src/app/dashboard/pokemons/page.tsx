@@ -21,7 +21,7 @@ export default async function HomePorkemon() {
 
   return (
     <div className="flex flex-col">
-      <span className="text-sm md:text-5xl my-2">
+      <span className="text-sm md:text-5xl my-2 text-blue-500">
         Listado de Pokémons <small>estático</small>
       </span>
       <PokemonGrid pokemons={pokemons}/>
